@@ -1,0 +1,149 @@
+@charset "utf-8";
+body {
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.page-mobile{
+	max-width: 320px;
+	margin: 0 auto;
+}
+.nav{
+	position: relative;
+    left: 10px;
+    top: 10px;
+	list-style: none;
+	background-color: white;
+	width: 100px;
+	padding: 5px 0px;
+	text-align: center;
+	margin: 0;
+	border: 3px solid #000;
+}
+.nav-item{
+	font-size: 20px;
+	color: black;
+}
+.btn-white{
+	color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 1.25px;
+    padding: 10px 0px;
+
+	position: relative;
+	left: 60px;
+	top: 10px;
+	width: 150px;
+	height: 18px;
+	text-align: center;
+	border-radius: 20px;
+}
+.btn-white:hover {
+	color: #000;
+    background-color: #fff;
+}
+head{
+	max-width: 320px;
+}
+main{
+	max-width: 320px;
+}
+.memory{
+	max-width: 320px;
+}
+.page-header{
+	height:0;
+	display: flex;
+}
+.Travel_img{
+	width: 320px;
+}
+.menu-space{
+	content: '';
+	display: block;
+    height: 2px;
+	position: relative;
+    background: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Title{
+	margin: 10px;
+	text-align: left;
+	justify-content: center;
+	font-size: 40px;
+	font-family: 'Lato';
+	font-weight: 700;
+}
+.text-black{
+	margin: 10px;
+	line-height: 1.25;
+    letter-spacing: -0.2px;
+    text-align: justify;
+
+}
+.btn-black {
+	color: #fff;
+	display: block;
+	width: 150px;
+    font-size: 15px;
+    background-color: #000;
+    font-weight: 900;
+    padding: 10px 0px;
+    height: 18px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.btn-black:hover {
+	color: #000;
+	background-color: #fff;
+}
+.memory {
+	max-width: 320;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #000;
+	padding: 10px 0 30px 0;
+	width: 320px;
+}
+.title-white {
+	margin: 10px;
+	font-size: 40px;
+	color: #fff;
+	font-family: 'Lato';
+	font-weight: 500;
+}
+.text-white{
+	margin: 10px;
+	line-height: 1.25;
+    letter-spacing: -0.2px;
+    text-align: justify;
+	color: #fff;
+}
+.btn-bottom{
+	display: block;
+	width: 150px;
+    font-size: 15px;
+	color: #000;
+	background-color: #fff;
+    font-weight: 900;
+    padding: 10px 0px;
+    height: 18px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.btn-bottom:hover{
+	color: #fff;
+	background-color: #000;
+}
